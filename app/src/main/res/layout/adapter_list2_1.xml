@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorUser17">
+    <include layout="@layout/inc_list2_1" />
+    <ImageView
+        android:id="@+id/adapter_list2_line"
+        android:background="@color/colorUser8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

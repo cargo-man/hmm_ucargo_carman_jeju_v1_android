@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser7">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/box_type1_3">
+        <RelativeLayout
+            android:id="@+id/alert_header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/line1_1">
+            <TextView
+                android:id="@+id/map_title"
+                style="@style/userText02"
+                android:textColor="@color/colorUser2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/map_kmtime"
+            style="@style/userText08"
+            android:layout_alignParentRight="true"
+            android:textSize="14dp"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <com.google.android.gms.maps.MapView
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mapView"/>
+        <Button
+            android:id="@+id/map_close"
+            android:stateListAnimator="@null"
+            style="@style/userButton12"
+            android:background="@drawable/cbutton_type6f"
+            android:layout_alignParentBottom="true"
+            android:text="@string/alert_close"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+</RelativeLayout>

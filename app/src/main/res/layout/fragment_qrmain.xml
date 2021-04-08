@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser17"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/qrmain_scanner"
+            style="@style/userButton02"
+            android:text="@string/qrmain_scanner"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/qrmain_in"
+            style="@style/userButton01"
+            android:text="@string/qrmain_in"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/qrmain_out"
+            style="@style/userButton02"
+            android:text="@string/qrmain_out"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</RelativeLayout>

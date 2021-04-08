@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorUser1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@color/colorUser17"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu1"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_1_title"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu1go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu2"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_2_title"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu2go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu3"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_3_title"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu3go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu4"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_4_title1"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu4go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu5"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_5_title"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu5go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_page3_menu6"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/page3_6_title"
+                    style="@style/userText07"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/page3_menu6go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

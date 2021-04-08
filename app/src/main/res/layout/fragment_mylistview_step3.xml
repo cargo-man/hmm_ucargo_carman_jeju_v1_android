@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/round_type1_4"
+                android:scaleType="fitXY"
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+            <TextView
+                style="@style/userText12"
+                android:padding="5dp"
+                android:text="@string/mylistview_paper_info1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/round_type1_4"
+                android:scaleType="fitXY"
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+            <TextView
+                style="@style/userText12"
+                android:padding="5dp"
+                android:text="@string/mylistview_paper_info2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/round_type1_4"
+                android:scaleType="fitXY"
+                android:layout_width="3dp"
+                android:layout_height="3dp" />
+            <TextView
+                style="@style/userText12"
+                android:padding="5dp"
+                android:text="@string/mylistview_paper_info3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:minHeight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorUser10">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:background="@color/colorUser17"
+                android:padding="10dp">
+                <TextView
+                    style="@style/userText01"
+                    android:text="@string/mylistview_paper_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="30dp"/>
+                <EditText
+                    android:id="@+id/mylistview_gomobile"
+                    style="@style/inputType3"
+                    android:hint="@string/mylistview_paper_hint"
+                    android:inputType="number"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/mylistview_photo"
+            style="@style/userButton09"
+            android:text="@string/mylistview_photo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"/>
+        <ImageView
+            android:id="@+id/mylistview_imageview"
+            android:background="@drawable/box_type3_1"
+            android:src="@drawable/ico_noimage"
+            android:scaleType="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
+

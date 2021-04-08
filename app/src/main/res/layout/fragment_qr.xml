@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser17"
+    android:orientation="vertical">
+    <include layout="@layout/inc_header" />
+    <kr.bgsoft.ucargo.jeju.cview.SwipeViewPager
+        android:id="@+id/qr_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+</LinearLayout>

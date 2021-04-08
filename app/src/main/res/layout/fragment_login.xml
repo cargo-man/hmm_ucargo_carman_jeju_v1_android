@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser1">
+    <LinearLayout
+        android:id="@+id/splash_loading_box"
+        android:weightSum="10"
+        android:background="@color/colorUser1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/img_spl_03"
+                android:scaleType="fitCenter"
+                android:layout_width="130dp"
+                android:layout_height="103dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+            <EditText
+                android:id="@+id/login_id"
+                android:hint="@string/login_id_hint"
+                style="@style/inputType2"
+                android:inputType="textVisiblePassword"
+                android:privateImeOptions="defaultInputmode=english"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+            <EditText
+                android:id="@+id/login_pass"
+                android:hint="@string/login_pass_hint"
+                style="@style/inputType2"
+                android:inputType="textWebPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+            <Button
+                android:id="@+id/login_send"
+                style="@style/userButton07"
+                android:text="@string/login_send"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+                <Button
+                    android:id="@+id/login_findid"
+                    style="@style/userButton04"
+                    android:textSize="14dp"
+                    android:text="@string/login_findid"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp" />
+                <ImageView
+                    android:background="@color/colorUser35"
+                    android:layout_width="1dp"
+                    android:layout_height="15dp" />
+                <Button
+                    android:id="@+id/login_findpass"
+                    style="@style/userButton04"
+                    android:textSize="14dp"
+                    android:text="@string/login_findpass"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp" />
+                <ImageView
+                    android:background="@color/colorUser35"
+                    android:layout_width="1dp"
+                    android:layout_height="15dp" />
+                <Button
+                    android:id="@+id/login_join"
+                    style="@style/userButton04"
+                    android:textSize="14dp"
+                    android:text="@string/login_join"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

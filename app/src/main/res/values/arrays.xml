@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_map">
+        <item>@string/list_map0</item>
+        <item>@string/list_map1</item>
+        <item>@string/list_map2</item>
+        <item>@string/list_map3</item>
+        <item>@string/list_map4</item>
+        <item>@string/list_map5</item>
+        <item>@string/list_map6</item>
+        <item>@string/list_map7</item>
+        <item>@string/list_map8</item>
+        <item>@string/list_map9</item>
+        <item>@string/list_map10</item>
+        <item>@string/list_map11</item>
+        <item>@string/list_map12</item>
+        <item>@string/list_map13</item>
+        <item>@string/list_map14</item>
+        <item>@string/list_map15</item>
+        <item>@string/list_map16</item>
+    </string-array>
+    <string-array name="list_cartype">
+        <item>@string/list_cartype0</item>
+        <item>@string/list_cartype1</item>
+        <item>@string/list_cartype7</item>
+        <item>@string/list_cartype8</item>
+        <item>@string/list_cartype12</item>
+    </string-array>
+    <string-array name="list_map_code">
+        <item>@string/list_map0_code</item>
+        <item>@string/list_map1_code</item>
+        <item>@string/list_map2_code</item>
+        <item>@string/list_map3_code</item>
+        <item>@string/list_map4_code</item>
+        <item>@string/list_map5_code</item>
+        <item>@string/list_map6_code</item>
+        <item>@string/list_map7_code</item>
+        <item>@string/list_map8_code</item>
+        <item>@string/list_map9_code</item>
+        <item>@string/list_map10_code</item>
+        <item>@string/list_map11_code</item>
+        <item>@string/list_map12_code</item>
+        <item>@string/list_map13_code</item>
+        <item>@string/list_map14_code</item>
+        <item>@string/list_map15_code</item>
+        <item>@string/list_map16_code</item>
+    </string-array>
+    <string-array name="list_carsize">
+        <item>@string/list_carsize0</item>
+        <item>@string/list_carsize1</item>
+        <item>@string/list_carsize13</item>
+    </string-array>
+    <string-array name="list_uptype">
+        <item>@string/list_uptype0</item>
+        <item>@string/list_uptype1</item>
+        <item>@string/list_uptype2</item>
+    </string-array>
+    <string-array name="list_cartype_code">
+        <item>@string/list_cartype0_code</item>
+        <item>@string/list_cartype1_code</item>
+        <item>@string/list_cartype7_code</item>
+        <item>@string/list_cartype8_code</item>
+        <item>@string/list_cartype12_code</item>
+    </string-array>
+    <string-array name="list_carsize_code">
+        <item>@string/list_carsize0_code</item>
+        <item>@string/list_carsize1_code</item>
+        <item>@string/list_carsize13_code</item>
+    </string-array>
+    <string-array name="list_uptype_code">
+        <item>@string/list_uptype0_code</item>
+        <item>@string/list_uptype1_code</item>
+        <item>@string/list_uptype2_code</item>
+    </string-array>
+    <string-array name="list_week">
+        <item>@string/cargoalert_week0</item>
+        <item>@string/cargoalert_week1</item>
+        <item>@string/cargoalert_week2</item>
+        <item>@string/cargoalert_week3</item>
+        <item>@string/cargoalert_week4</item>
+        <item>@string/cargoalert_week5</item>
+        <item>@string/cargoalert_week6</item>
+    </string-array>
+    <string-array name="list_paymethod">
+        <item>@string/list_pay1</item>
+        <item>@string/list_pay2</item>
+        <item>@string/list_pay3</item>
+        <item>@string/list_pay4</item>
+        <item>@string/list_pay5</item>
+        <item>@string/list_pay6</item>
+        <item>@string/list_pay7</item>
+    </string-array>
+    <string-array name="list_paymethod_code">
+        <item>@string/list_pay1_code</item>
+        <item>@string/list_pay2_code</item>
+        <item>@string/list_pay3_code</item>
+        <item>@string/list_pay4_code</item>
+        <item>@string/list_pay5_code</item>
+        <item>@string/list_pay6_code</item>
+        <item>@string/list_pay7_code</item>
+    </string-array>
+    <string-array name="mylist_status">
+        <item>@string/mylist_all</item>
+        <item>@string/mylist_status1</item>
+        <item>@string/mylist_status2</item>
+        <item>@string/mylist_status3</item>
+    </string-array>
+    <string-array name="mylist_status_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cargo_status">
+        <item>@string/cargo_status0</item>
+        <item>@string/cargo_status1</item>
+        <item>@string/cargo_status2</item>
+        <item>@string/cargo_status3</item>
+        <item>@string/cargo_status4</item>
+        <item>@string/cargo_status5</item>
+        <item>@string/cargo_status6</item>
+        <item>@string/cargo_status7</item>
+    </string-array>
+    <string-array name="cargo_status_code">
+        <item>@string/cargo_status0_code</item>
+        <item>@string/cargo_status1_code</item>
+        <item>@string/cargo_status2_code</item>
+        <item>@string/cargo_status3_code</item>
+        <item>@string/cargo_status4_code</item>
+        <item>@string/cargo_status5_code</item>
+        <item>@string/cargo_status6_code</item>
+        <item>@string/cargo_status7_code</item>
+    </string-array>
+
+    <string-array name="list_sort">
+        <item>@string/list_sort1</item>
+        <item>@string/list_sort2</item>
+        <item>@string/list_sort3</item>
+        <item>@string/list_sort7</item>
+        <item>@string/list_sort4</item>
+        <item>@string/list_sort5</item>
+        <item>@string/list_sort6</item>
+        <item>@string/list_sort8</item>
+    </string-array>
+    <string-array name="list_sort_code">
+        <item>@string/list_sort1_code</item>
+        <item>@string/list_sort2_code</item>
+        <item>@string/list_sort3_code</item>
+        <item>@string/list_sort7_code</item>
+        <item>@string/list_sort4_code</item>
+        <item>@string/list_sort5_code</item>
+        <item>@string/list_sort6_code</item>
+        <item>@string/list_sort8_code</item>
+    </string-array>
+
+    <string-array name="card_device">
+        <item>@string/card_device1</item>
+        <item>@string/card_device2</item>
+        <item>@string/card_device3</item>
+        <item>@string/card_device4</item>
+        <item>@string/card_device5</item>
+        <item>@string/card_device6</item>
+    </string-array>
+
+    <string-array name="jibu_name">
+        <item>@string/jibu_name1</item>
+        <item>@string/jibu_name4</item>
+        <item>@string/jibu_name2</item>
+        <item>@string/jibu_name3</item>
+        <item>@string/jibu_name5</item>
+        <item>@string/jibu_name6</item>
+        <item>@string/jibu_name7</item>
+        <item>@string/jibu_name8</item>
+        <item>@string/jibu_name9</item>
+    </string-array>
+    <string-array name="jibu_address">
+        <item>@string/jibu_address1</item>
+        <item>@string/jibu_address4</item>
+        <item>@string/jibu_address2</item>
+        <item>@string/jibu_address3</item>
+        <item>@string/jibu_address5</item>
+        <item>@string/jibu_address6</item>
+        <item>@string/jibu_address7</item>
+        <item>@string/jibu_address8</item>
+        <item>@string/jibu_address9</item>
+    </string-array>
+    <string-array name="jibu_tel1">
+        <item>@string/jibu_tel1_1</item>
+        <item>@string/jibu_tel4_1</item>
+        <item>@string/jibu_tel2_1</item>
+        <item>@string/jibu_tel3_1</item>
+        <item>@string/jibu_tel5_1</item>
+        <item>@string/jibu_tel6_1</item>
+        <item>@string/jibu_tel7_1</item>
+        <item>@string/jibu_tel8_1</item>
+        <item>@string/jibu_tel9_1</item>
+    </string-array>
+    <string-array name="jibu_tel2">
+        <item>@string/jibu_tel1_2</item>
+        <item>@string/jibu_tel4_2</item>
+        <item>@string/jibu_tel2_2</item>
+        <item>@string/jibu_tel3_2</item>
+        <item>@string/jibu_tel5_2</item>
+        <item>@string/jibu_tel6_2</item>
+        <item>@string/jibu_tel7_2</item>
+        <item>@string/jibu_tel8_2</item>
+        <item>@string/jibu_tel9_2</item>
+    </string-array>
+    <string-array name="jibu_fax">
+        <item>@string/jibu_fax1</item>
+        <item>@string/jibu_fax4</item>
+        <item>@string/jibu_fax2</item>
+        <item>@string/jibu_fax3</item>
+        <item>@string/jibu_fax5</item>
+        <item>@string/jibu_fax6</item>
+        <item>@string/jibu_fax7</item>
+        <item>@string/jibu_fax8</item>
+        <item>@string/jibu_fax9</item>
+    </string-array>
+    <string-array name="jibu_area">
+        <item>@string/jibu_area1</item>
+        <item>@string/jibu_area4</item>
+        <item>@string/jibu_area2</item>
+        <item>@string/jibu_area3</item>
+        <item>@string/jibu_area5</item>
+        <item>@string/jibu_area6</item>
+        <item>@string/jibu_area7</item>
+        <item>@string/jibu_area8</item>
+        <item>@string/jibu_area9</item>
+    </string-array>
+    <string-array name="jibu_location">
+        <item>@string/jibu_location1</item>
+        <item>@string/jibu_location4</item>
+        <item>@string/jibu_location2</item>
+        <item>@string/jibu_location3</item>
+        <item>@string/jibu_location5</item>
+        <item>@string/jibu_location6</item>
+        <item>@string/jibu_location7</item>
+        <item>@string/jibu_location8</item>
+        <item>@string/jibu_location9</item>
+    </string-array>
+    <string-array name="biztype">
+        <item>@string/biztype1</item>
+        <item>@string/biztype2</item>
+    </string-array>
+
+    <string-array name="daysort_type1">
+        <item>@string/daysort_type1_0</item>
+        <item>@string/daysort_type1_1</item>
+        <item>@string/daysort_type1_2</item>
+        <item>@string/daysort_type1_3</item>
+    </string-array>
+    <string-array name="daysort_type1_code">
+        <item>@string/daysort_type1_0_code</item>
+        <item>@string/daysort_type1_1_code</item>
+        <item>@string/daysort_type1_2_code</item>
+        <item>@string/daysort_type1_3_code</item>
+    </string-array>
+    <string-array name="daysort_type2">
+        <item>@string/daysort_type2_0</item>
+        <item>@string/daysort_type2_1</item>
+        <item>@string/daysort_type2_2</item>
+        <item>@string/daysort_type2_3</item>
+    </string-array>
+    <string-array name="daysort_type2_code">
+        <item>@string/daysort_type2_0_code</item>
+        <item>@string/daysort_type2_1_code</item>
+        <item>@string/daysort_type2_2_code</item>
+        <item>@string/daysort_type2_3_code</item>
+    </string-array>
+
+</resources>

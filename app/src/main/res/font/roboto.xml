@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+    <font
+        android:font="@font/robotor"
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        app:font="@font/robotor"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+    <font
+        android:font="@font/robotom"
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        app:font="@font/robotom"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+</font-family>

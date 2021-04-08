@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bg" format="reference|integer" />
+    <attr name="text" format="reference|string" />
+    <attr name="textres" format="reference|integer" />
+    <attr name="textColor" format="reference|integer" />
+    <attr name="abicon" format="reference|integer" />
+    <attr name="textSize" format="reference|integer" />
+
+    <declare-styleable name="ArrowButton">
+        <attr name="bg" />
+        <attr name="abicon" />
+        <attr name="text" />
+        <attr name="textres" />
+        <attr name="textColor" />
+        <attr name="hint" format="reference|string" />
+        <attr name="hintres" format="reference|integer" />
+        <attr name="hintColor" format="reference|integer" />
+    </declare-styleable>
+    <declare-styleable name="CheckButton">
+        <attr name="bg" />
+        <attr name="check" format="boolean" />
+        <attr name="text" />
+        <attr name="textres" />
+        <attr name="textColor" />
+        <attr name="overBg" format="reference|integer" />
+        <attr name="overTextColor" format="reference|integer" />
+        <attr name="textSize" />
+    </declare-styleable>
+    <declare-styleable name="IconButton">
+        <attr name="bg" />
+        <attr name="abicon" />
+        <attr name="text" />
+        <attr name="textres" />
+        <attr name="textColor" />
+    </declare-styleable>
+</resources>

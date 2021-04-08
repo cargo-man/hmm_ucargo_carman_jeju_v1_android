@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:background="@drawable/line1_1"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/adpater_board_title"
+        style="@style/userText17"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테스트내용입니다."/>
+    <TextView
+        android:id="@+id/adpater_board_date"
+        style="@style/userText17"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2017-01-01"/>
+</LinearLayout>

@@ -1,0 +1,448 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="userButtonClear">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton01">
+        <item name="android:background">@drawable/box_type1_1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userButton02">
+        <item name="android:background">@drawable/box_type1_2</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userButton03">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorUser2</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton04">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorUser4</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton05">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton06">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton07">
+        <item name="android:background">@drawable/cbutton_type1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="userButton08">
+        <item name="android:background">@drawable/cbutton_type2</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="userButton09">
+        <item name="android:background">@drawable/cbutton_type3</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="userButton10">
+        <item name="android:background">@drawable/cbutton_type4</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="userButton11">
+        <item name="android:background">@drawable/rbox_type3_12</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton12">
+        <item name="android:background">@drawable/cbutton_type6</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userButton13">
+        <item name="android:background">@drawable/cbutton_type7</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="userText01">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorUser4</item>
+    </style>
+    <style name="userText02">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="userText03">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+    </style>
+    <style name="userText04">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorUser2</item>
+    </style>
+    <style name="userText05">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="userText06">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userText07">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userText08">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="userText09">
+        <item name="android:textColor">@color/colorUser19</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userText10">
+        <item name="android:textColor">@color/colorUser20</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userText11">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser4</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="userText12">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="userText13">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser15</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userText14">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser11</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userText15">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser28</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="userText16">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser39</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userText17">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+    </style>
+    <style name="userText18">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorUser19</item>
+    </style>
+    <style name="userText19">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorUser43</item>
+    </style>
+    <style name="userText20">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser43</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+    <style name="userText21">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser35</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="userText22">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+    </style>
+
+
+    <style name="radioType1">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser11</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+    </style>
+    <style name="radioType2">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type2</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="radioType3">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type3</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/radio_type3</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="radioType4">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type4</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="radioType5">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type5</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="radioType6">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type6</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="radioType7">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type7</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type7</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="radioType8">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type8</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="radioType8a">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type8a</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type8</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="radioType9">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type9</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorUser35</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+    </style>
+    <style name="radioType10">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/radio_type10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_type10</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="inputType1">
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColorHint">@color/colorUser15</item>
+        <item name="android:background">@drawable/input_bg_type1</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_type1</item>
+        <item name="android:privateImeOptions">defaultInputmode=korean</item>
+    </style>
+    <style name="inputType2">
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColorHint">@color/colorUser4</item>
+        <item name="android:background">@drawable/input_bg_type1</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_type1</item>
+        <item name="android:privateImeOptions">defaultInputmode=korean</item>
+    </style>
+    <style name="inputType3">
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColorHint">@color/colorUser4</item>
+        <item name="android:background">@drawable/box_type3_6</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_type1</item>
+        <item name="android:privateImeOptions">defaultInputmode=korean</item>
+    </style>
+    <style name="inputType4">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColorHint">@color/colorUser11</item>
+        <item name="android:background">@drawable/input_bg_type4</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_type1</item>
+        <item name="android:privateImeOptions">defaultInputmode=korean</item>
+    </style>
+
+    <style name="hh_info1">
+        <item name="android:textColor">@color/colorUser2</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="hh_info2">
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="hh_info2b">
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="hh_info3">
+        <item name="android:textColor">@color/colorUser14</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="hh_info4">
+        <item name="android:background">@drawable/line1_10</item>
+        <item name="android:textColor">@color/colorUser6</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="checkType1">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@drawable/btn_switch</item>
+    </style>
+
+    <style name="buttonTextClear">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!-- ## new list style light -->
+    <style name="cargolist_light_text">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorUser6</item>
+    </style>
+    <style name="cargolist_light_location">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">@color/colorUser43</item>
+    </style>
+    <style name="cargolist_light_locationb" parent="cargolist_light_location">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="cargolist_light_day">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">33dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/box_type3_21</item>
+    </style>
+    <style name="cargolist_light_paytype">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/box_type3_24</item>
+    </style>
+    <style name="cargolist_light_pay">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/colorUser43</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

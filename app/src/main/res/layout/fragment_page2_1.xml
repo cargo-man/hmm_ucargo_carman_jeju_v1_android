@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorUser1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:background="@color/colorUser14"
+                    android:layout_width="3dp"
+                    android:layout_height="17dp" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/page2_1_title"
+                    style="@style/userText07"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/img_page2_1"
+                android:scaleType="fitXY"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="01"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="02"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="03"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="04"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="05"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="06"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="07"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="08"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    style="@style/hh_info1"
+                    android:text="09"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/hh_info2"
+                    android:text="@string/page2_1_info9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNSELECTED -->
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:drawable="@drawable/box_type3_3" />
+        </layer-list>
+    </item>
+    <!-- SELECTED -->
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/box_type3_2" />
+        </layer-list>
+    </item>
+</selector>

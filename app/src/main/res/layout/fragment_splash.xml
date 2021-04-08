@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/splash_loading_box"
+        android:weightSum="10"
+        android:background="@color/colorUser1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/img_spl_03"
+                android:scaleType="fitCenter"
+                android:layout_width="130dp"
+                android:layout_height="103dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_spl_01" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="70dp"
+                    android:paddingLeft="30dp">
+                    <ImageView
+                        android:id="@+id/splash_loading_location"
+                        android:layout_width="25dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/ico_loading" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!--<TextView
+                style="@style/userText01"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="55dp"
+                android:text="@string/splash_text1"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/userText04"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/splash_text2"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />-->
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

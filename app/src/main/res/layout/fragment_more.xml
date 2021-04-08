@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser1">
+    <include layout="@layout/inc_header" />
+    <ScrollView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@drawable/line1_8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    style="@style/userText07"
+                    android:text="@string/more_title1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more01"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_myadd"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu1go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more02"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_myaddlist"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu2go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more03"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_mylist"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu3go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more07"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_alarm"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu4go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more09"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/main_button9"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu9go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/line1_8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    style="@style/userText07"
+                    android:text="@string/more_title2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more04"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_bank"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu5go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more05"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_mybankoutpay"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu6go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/line1_8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    style="@style/userText07"
+                    android:text="@string/more_title3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/line1_9">
+                <ImageView
+                    android:src="@drawable/ico_more06"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_notice"
+                    style="@style/userText07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/more_menu7go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/userText07"
+                        android:text="@string/title_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="@string/app_tel"
+                        android:background="@drawable/line1_5"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/colorUser2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/more_menu8go"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

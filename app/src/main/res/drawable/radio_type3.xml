@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNSELECTED -->
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:drawable="@drawable/round_type1_3" android:width="5dp" android:height="5dp"
+                android:top="13dp" android:right="82dp" android:bottom="12dp" android:left="8dp" />
+        </layer-list>
+    </item>
+    <!-- SELECTED -->
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/round_type1_4" android:width="5dp" android:height="5dp"
+                android:top="13dp" android:right="82dp" android:bottom="12dp" android:left="8dp" />
+        </layer-list>
+    </item>
+</selector>

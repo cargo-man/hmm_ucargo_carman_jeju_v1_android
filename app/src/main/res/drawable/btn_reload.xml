@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:width="1dp" android:color="@android:color/white" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ico_refresh" android:width="15dp" android:height="15dp" android:right="58dp" android:top="7dp" android:left="7dp" android:bottom="8dp"></item>
+</layer-list>

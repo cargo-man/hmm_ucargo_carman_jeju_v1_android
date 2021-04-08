@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:background="@drawable/line1_1"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/adapter_cardlist_date"
+        android:background="@drawable/line1_8"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        style="@style/userText07"
+        android:textStyle="bold"
+        android:text="08.08 (수)"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <LinearLayout
+        android:id="@+id/adapter_cardlist_box"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/adapter_cardlist_status"
+                android:background="@drawable/rbox_type2_1"
+                android:textSize="12dp"
+                android:text="@string/cardlist_status1"
+                android:textColor="@color/colorListPay1"
+                android:gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="22dp" />
+            <TextView
+                android:id="@+id/adapter_cardlist_regdate"
+                style="@style/userText01"
+                android:text="오전 02:22:22"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            <TextView
+                style="@style/userText07"
+                android:textStyle="bold"
+                android:text="@string/cardlist_ptitle"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_cardlist_price"
+                style="@style/userText01"
+                android:textSize="17dp"
+                android:textColor="@color/colorListPay2"
+                android:text="100,000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/userText07"
+                android:textStyle="bold"
+                android:text="@string/info_pointadd"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            <TextView
+                style="@style/userText07"
+                android:text="@string/cardlist_tid"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_cardlist_tid"
+                style="@style/userText07"
+                android:text="12345678"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            <TextView
+                style="@style/userText07"
+                android:text="@string/cardlist_cardnum"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_cardlist_cardnum"
+                style="@style/userText07"
+                android:text="12345678"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/adapter_cardlist_canclebox"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            <TextView
+                style="@style/userText07"
+                android:text="@string/cardlist_ctitle"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_cardlist_cancledate"
+                style="@style/userText07"
+                android:text="2018-01-01 00:00:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

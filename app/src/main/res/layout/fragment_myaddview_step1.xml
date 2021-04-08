@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/line1_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:paddingBottom="2dp">
+        <include layout="@layout/fragment_cargo3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+        <kr.bgsoft.ucargo.jeju.cview.IconButton
+            android:id="@+id/myaddview_copy"
+            app:bg="@android:color/transparent"
+            app:abicon="@drawable/ico_copy"
+            app:textColor="@color/colorUser6"
+            app:textres="@string/myaddview_copy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="@color/colorUser8"
+            android:layout_width="1dp"
+            android:layout_height="15dp" />
+        <kr.bgsoft.ucargo.jeju.cview.IconButton
+            android:id="@+id/myaddview_edit"
+            app:bg="@android:color/transparent"
+            app:abicon="@drawable/ico_edit"
+            app:textColor="@color/colorUser6"
+            app:textres="@string/myaddview_edit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

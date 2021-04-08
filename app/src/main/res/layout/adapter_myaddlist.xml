@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorUser17">
+    <ImageView
+        android:background="@color/colorUser8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <include layout="@layout/inc_list2" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:background="@drawable/line3_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/adapter_myaddlist_regdate"
+            style="@style/userText12"
+            android:text="2017.01.01. 14: 48"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/adapter_myaddlist_status"
+            style="@style/userText12"
+            android:text="배차전"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/colorUser8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

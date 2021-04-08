@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser17"
+    android:orientation="vertical">
+    <include layout="@layout/inc_header" />
+    <RadioGroup
+        android:background="@drawable/line1_1"
+        android:id="@+id/hh_submenubox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:id="@+id/hh_submenu_box1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="3"
+            android:gravity="center_vertical">
+            <RadioButton
+                android:id="@+id/hh_submenu1"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:text="@string/hh_menu1_sub1"
+                android:checked="true" />
+            <RadioButton
+                android:id="@+id/hh_submenu2"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:text="@string/hh_menu1_sub2"/>
+            <RadioButton
+                android:id="@+id/hh_submenu3"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:text="@string/hh_menu1_sub3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/hh_submenu_box2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="3"
+            android:gravity="center_vertical">
+            <RadioButton
+                android:id="@+id/hh_submenu4"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="@string/hh_menu1_sub1" />
+            <RadioButton
+                android:id="@+id/hh_submenu5"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="@string/hh_menu1_sub2"/>
+            <RadioButton
+                android:id="@+id/hh_submenu6"
+                style="@style/radioType5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:text="@string/hh_menu1_sub3"/>
+        </LinearLayout>
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <kr.bgsoft.ucargo.jeju.cview.SwipeViewPager
+            android:id="@+id/hh_inbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp" />
+        <ImageView
+            android:background="@drawable/line1_1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="44dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:weightSum="5">
+            <RadioButton
+                android:id="@+id/hh_menu1"
+                style="@style/radioType7"
+                android:text="@string/hh_menu1"
+                android:checked="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/hh_menu4"
+                style="@style/radioType7"
+                android:text="@string/hh_menu4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/hh_menu2"
+                style="@style/radioType7"
+                android:text="@string/hh_menu2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/hh_menu3"
+                style="@style/radioType7"
+                android:text="@string/hh_menu3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/hh_menu5"
+                style="@style/radioType7"
+                android:text="@string/hh_menu5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

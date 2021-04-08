@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser17">
+    <include layout="@layout/inc_header" />
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RelativeLayout
+                android:layout_weight="15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ico_arrowb_left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/cardmain_left"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="70"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/cardmain_date"
+                    style="@style/userText02"
+                    android:textSize="17dp"
+                    android:text="2018년 08월"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ico_arrowb_right"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <Button
+                    android:id="@+id/cardmain_right"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RadioGroup
+            android:background="@drawable/line1_1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="3">
+            <RadioButton
+                android:id="@+id/cardmain_status0"
+                style="@style/radioType5"
+                android:text="@string/cardmain_status0"
+                android:checked="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/cardmain_status1"
+                style="@style/radioType5"
+                android:text="@string/cardmain_status1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/cardmain_status2"
+                style="@style/radioType5"
+                android:text="@string/cardmain_status2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/board_list2" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/cardmain_send"
+        style="@style/userButton07"
+        android:layout_alignParentBottom="true"
+        android:text="@string/cardmain_send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</RelativeLayout>

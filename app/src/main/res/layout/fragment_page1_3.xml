@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorUser1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:background="@color/colorUser14"
+                    android:layout_width="3dp"
+                    android:layout_height="17dp" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/app_name"
+                    style="@style/userText07"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="20dp"
+                style="@style/userText17"
+                android:text="@string/page1_3_addr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/userText17"
+                    android:text="T "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/page1_3_gotel"
+                    style="@style/userText17"
+                    android:text="@string/jibu_center_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/userText17"
+                    android:text="F "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    style="@style/userText17"
+                    android:text="@string/jibu_center_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/line1_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <ImageView
+                android:id="@+id/page1_3_gomap"
+                android:layout_margin="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_page1_3_map_no"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

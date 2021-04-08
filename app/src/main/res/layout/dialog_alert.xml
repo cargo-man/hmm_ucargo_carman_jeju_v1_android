@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser7">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:background="@drawable/box_type1_3">
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/alert_header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/line1_1">
+            <TextView
+                android:id="@+id/alert_title"
+                style="@style/userText02"
+                android:textColor="@color/colorUser2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/alert_contents"
+            style="@style/userText03"
+            android:background="@drawable/line1_1"
+            android:padding="10dp"
+            android:minHeight="100dp"
+            android:gravity="center"
+            android:text="asdfasfasdfasdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/box_type2_1">
+            <Button
+                android:id="@+id/alert_no"
+                style="@style/userButton13"
+                android:text="@string/alert_no"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/alert_yes"
+                style="@style/userButton12"
+                android:text="@string/alert_yes"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

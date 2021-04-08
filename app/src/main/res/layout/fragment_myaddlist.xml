@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser1">
+    <include layout="@layout/inc_header" />
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="12"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorUser36">
+            <RelativeLayout
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorUser12">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ico_drop_w"
+                    android:layout_width="8dp"
+                    android:layout_height="5dp" />
+                <TextView
+                    android:id="@+id/myaddlist_startdate"
+                    style="@style/userText06"
+                    android:text="2017.01.01"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <TextView
+                style="@style/userText06"
+                android:text="~"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <RelativeLayout
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorUser12">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ico_drop_w"
+                    android:layout_width="8dp"
+                    android:layout_height="5dp" />
+                <TextView
+                    android:id="@+id/myaddlist_enddate"
+                    style="@style/userText06"
+                    android:text="2017.01.01"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginLeft="2dp"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorUser12">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ico_drop_w"
+                    android:layout_width="8dp"
+                    android:layout_height="5dp" />
+                <TextView
+                    android:id="@+id/myaddlist_status"
+                    style="@style/userText06"
+                    android:text="@string/mylist_all"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="85dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/board_list2" />
+    </RelativeLayout>
+</RelativeLayout>

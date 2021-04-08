@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser17"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <include layout="@layout/inc_header" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:src="@drawable/ico_point"
+            android:scaleType="fitXY"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/mybanktouser_point"
+            style="@style/userText02"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="125,000"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/userText14"
+            android:textSize="17dp"
+            android:text="@string/info_pointadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:weightSum="10">
+        <EditText
+            android:id="@+id/mybanktouser_stext"
+            style="@style/inputType3"
+            android:hint="@string/mybank_touser_search_hint"
+            android:background="@drawable/box_type3_4"
+            android:inputType="text"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/mybanktouser_sbtn"
+            style="@style/userButton09"
+            android:text="@string/mybank_touser_search_button"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/mybanktouser_listbox"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="192dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/board_list" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@color/colorUser2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+        <LinearLayout
+            android:id="@+id/mybanktouser_selectbox"
+            android:background="@color/colorUser37"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ico_transfer_select"
+                android:layout_width="30dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mybanktouser_nameselect"
+                style="@style/userText01"
+                android:text="@string/mybank_touser_userselect"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/colorUser40"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:weightSum="10">
+            <TextView
+                style="@style/userText01"
+                android:text="@string/mybank_touser_title1"
+                android:paddingLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent" />
+            <EditText
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="7dp"
+                android:id="@+id/mybanktouser_topoint"
+                style="@style/inputType3"
+                android:background="@drawable/box_type3_4"
+                android:hint="@string/mybank_touser_hint1"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/colorUser40"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:weightSum="10">
+            <TextView
+                style="@style/userText01"
+                android:text="@string/mybank_touser_title2"
+                android:paddingLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent" />
+            <EditText
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/mybanktouser_password"
+                style="@style/inputType3"
+                android:password="true"
+                android:background="@drawable/box_type3_4"
+                android:hint="@string/mybank_touser_hint2"
+                android:inputType="textPassword"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <Button
+                android:id="@+id/mybanktouser_close"
+                style="@style/userButton08"
+                android:text="@string/alert_cancle"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/mybanktouser_send"
+                style="@style/userButton07"
+                android:text="@string/mybank_touser_send"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "602569730438",
+    "firebase_url": "https://ucargo-driver.firebaseio.com",
+    "project_id": "ucargo-driver",
+    "storage_bucket": "ucargo-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602569730438:android:c4da531827d3f5f7",
+        "android_client_info": {
+          "package_name": "kr.bgsoft.ucargo.jeju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602569730438-10gusmfvsr8ccea2sqm7ro9qau2ktvsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPnnYZL3I2SogwL9NOMdjK2_xS5iQ3yc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

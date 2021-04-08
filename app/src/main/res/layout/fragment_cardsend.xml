@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUser1"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <include layout="@layout/inc_header" />
+    <ScrollView
+        android:background="@color/colorUser1"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/cardsend_device_title"
+                    style="@style/userText07"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/line1_1"
+                    android:layout_centerVertical="true"
+                    android:text="@string/card_device6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/cardsend_device_icon"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ico_drop_g"
+                    android:scaleType="fitCenter"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <Button
+                    android:id="@+id/cardsend_device"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RadioGroup
+                android:visibility="gone"
+                android:id="@+id/cardsend_device_subbox"
+                android:orientation="vertical"
+                android:background="@color/colorUser5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/cardsend_device1"
+                        style="@style/radioType5"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device1"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_device2"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device2"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_device3"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device3"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/cardsend_device4"
+                        style="@style/radioType5"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device4"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_device5"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device5"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_device6"
+                        style="@style/radioType5"
+                        android:checked="true"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/card_device6"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+            </RadioGroup>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/cardsend_type_title"
+                    style="@style/userText07"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/line1_1"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cardsend_title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/cardsend_type_icon"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ico_drop_g"
+                    android:scaleType="fitCenter"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <Button
+                    android:id="@+id/cardsend_type"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RadioGroup
+                android:visibility="gone"
+                android:id="@+id/cardsend_type_subbox"
+                android:orientation="horizontal"
+                android:background="@color/colorUser5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:padding="1dp">
+                <RadioButton
+                    android:id="@+id/cardsend_type1"
+                    style="@style/radioType5"
+                    android:background="@android:color/white"
+                    android:text="@string/cardsend_type1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp" />
+                <RadioButton
+                    android:id="@+id/cardsend_type2"
+                    style="@style/radioType5"
+                    android:layout_marginLeft="1dp"
+                    android:background="@android:color/white"
+                    android:text="@string/cardsend_type2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp" />
+            </RadioGroup>
+            <EditText
+                android:id="@+id/cardsend_price"
+                android:hint="@string/cardsend_price_hint"
+                style="@style/inputType2"
+                android:inputType="number"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/cardsend_ptype_title"
+                    style="@style/userText07"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/line1_1"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cardsend_title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/cardsend_ptype_icon"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ico_drop_g"
+                    android:scaleType="fitCenter"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <Button
+                    android:id="@+id/cardsend_ptype"
+                    style="@style/userButtonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RadioGroup
+                android:visibility="gone"
+                android:id="@+id/cardsend_ptype_subbox"
+                android:orientation="vertical"
+                android:background="@color/colorUser5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype1"
+                        style="@style/radioType5"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype1"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype2"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype2"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype3"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype3"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype4"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype4"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype5"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype5"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype6"
+                        style="@style/radioType5"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype6"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype7"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype7"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype8"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype8"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype9"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype9"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                    <RadioButton
+                        android:id="@+id/cardsend_ptype10"
+                        style="@style/radioType5"
+                        android:layout_marginLeft="1dp"
+                        android:background="@android:color/white"
+                        android:text="@string/cardsend_ptype10"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/cardsend_send"
+        style="@style/userButton07"
+        android:background="@drawable/cbutton_type5"
+        android:textColor="@color/colorUser5"
+        android:layout_alignParentBottom="true"
+        android:text="@string/cardsend_send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</RelativeLayout>
