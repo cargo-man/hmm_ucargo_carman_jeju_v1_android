@@ -264,7 +264,7 @@ class UCargoActivity : DefaultActivity(), View.OnClickListener, SwipeRefreshLayo
         }
 
         fun goShop2() {
-            val url = "http://kgyd.itgoyo.com"
+            val url = "http://jjyd.itgoyo.com/"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             nactivity?.startActivity(intent)
         }

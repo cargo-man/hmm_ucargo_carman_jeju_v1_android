@@ -441,7 +441,7 @@ class SplashFragment : DefaultFragment(){
                 })*/
 
                // App.host = "http://192.168.0.83:8090/Y1/"
-                    App.host = "http://59.13.192.199:8080/Y1/"
+                    App.host = "http://59.13.192.199:8080/J1/"
                 checkApp()
             }
         }
