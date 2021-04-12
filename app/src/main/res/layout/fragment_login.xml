@@ -59,7 +59,7 @@
                 android:gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:weightSum="3">
+                android:weightSum="2">
                 <Button
                     android:id="@+id/login_findid"
                     style="@style/userButton04"
@@ -81,10 +81,12 @@
                     android:layout_width="0dp"
                     android:layout_height="45dp" />
                 <ImageView
+                    android:visibility="gone"
                     android:background="@color/colorUser35"
                     android:layout_width="1dp"
                     android:layout_height="15dp" />
                 <Button
+                    android:visibility="gone"
                     android:id="@+id/login_join"
                     style="@style/userButton04"
                     android:textSize="14dp"
