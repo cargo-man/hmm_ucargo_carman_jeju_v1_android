@@ -133,14 +133,14 @@ open class DefaultActivity : AppCompatActivity(), View.OnTouchListener {
                     array.add(Manifest.permission.GET_ACCOUNTS)
                 }
             }
-            PEMTYPE.LOCATION -> {
+            /*PEMTYPE.LOCATION -> {
                 if(hasPermission(Manifest.permission.ACCESS_FINE_LOCATION)) {
                     array.add(Manifest.permission.ACCESS_FINE_LOCATION)
                 }
                 if(hasPermission(Manifest.permission.ACCESS_COARSE_LOCATION)) {
                     array.add(Manifest.permission.ACCESS_COARSE_LOCATION)
                 }
-            }
+            }*/
             PEMTYPE.MIC -> {
                 if(hasPermission(Manifest.permission.RECORD_AUDIO)) {
                     array.add(Manifest.permission.RECORD_AUDIO)

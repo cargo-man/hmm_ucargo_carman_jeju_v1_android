@@ -369,7 +369,7 @@ class UCargoActivity : DefaultActivity(), View.OnClickListener, SwipeRefreshLayo
 
         //permission set
         setPermission(PEMTYPE.CONTACTS)
-        setPermission(PEMTYPE.LOCATION)
+        //setPermission(PEMTYPE.LOCATION)
         //setPermission(PEMTYPE.MIC)
         setPermission(PEMTYPE.SENSOR)
         //setPermission(PEMTYPE.SMS)
