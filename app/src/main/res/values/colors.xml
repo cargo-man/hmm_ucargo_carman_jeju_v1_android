@@ -5,8 +5,10 @@
     <color name="colorAccent">#9b8347</color>
 
     <color name="colorUser1">#ededed</color>
-    <color name="colorUser2">#028acc</color>
-    <color name="colorUser3">#037bb6</color>
+<!--    <color name="colorUser2">#028acc</color>-->
+<!--    <color name="colorUser3">#037bb6</color>-->
+    <color name="colorUser2">#f3a53e</color>
+    <color name="colorUser3">#f0873f</color>
     <color name="colorUser4">#666666</color>
     <color name="colorUser5">#cccccc</color>
     <color name="colorUser6">#333333</color>

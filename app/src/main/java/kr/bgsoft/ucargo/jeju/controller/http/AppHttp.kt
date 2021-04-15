@@ -22,7 +22,8 @@ class AppHttp {
     fun getVersion(http : DefaultHttp, callback: DefaultHttp.Callback) {
 
         val json = JSONObject()
-        json.put("code", "yongdal_car")
+        //json.put("code", "yongdal_car")
+        json.put("code", "yongdal_jeju")
 
         http.requestJSON(HTTP_VERSOIN, json, callback)
 
@@ -31,7 +32,8 @@ class AppHttp {
     fun getCode(http : DefaultHttp, callback: DefaultHttp.Callback) {
 
         val json = JSONObject()
-        json.put("code", "yongdal_car")
+        //json.put("code", "yongdal_car")
+        json.put("code", "yongdal_jeju")
 
         http.requestJSON(HTTP_CODE, json, callback)
 
